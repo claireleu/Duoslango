@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+@import "tailwindcss";
+
+@theme {
+    /* brown1 - rgba(175, 83, 29, 1) */
+    --color-fiery-orange-50: #fdf9ed;
+    --color-fiery-orange-100: #f8edcd;
+    --color-fiery-orange-200: #f1d996;
+    --color-fiery-orange-300: #eac05f;
+    --color-fiery-orange-400: #e5aa3a;
+    --color-fiery-orange-500: #dd8c23;
+    --color-fiery-orange-600: #c36a1c;
+    --color-fiery-orange-700: #af531d;
+    --color-fiery-orange-800: #843c1c;
+    --color-fiery-orange-900: #6d331a;
+    --color-fiery-orange-950: #3e190a;
+
+    /* brown2 - rgba(211, 102, 39, 1) */
+    --color-piper-50: #fdf7ef;
+    --color-piper-100: #faedda;
+    --color-piper-200: #f4d8b4;
+    --color-piper-300: #edbd84;
+    --color-piper-400: #e49753;
+    --color-piper-500: #de7c31;
+    --color-piper-600: #d36627;
+    --color-piper-700: #ac4d22;
+    --color-piper-800: #8a3e22;
+    --color-piper-900: #6f351f;
+    --color-piper-950: #3c190e;
+
+    /* brown3 - */
+    --color-crusta-50: #fff5ed;
+    --color-crusta-100: #ffe8d4;
+    --color-crusta-200: #ffcda8;
+    --color-crusta-300: #ffaa71;
+    --color-crusta-400: #ff8243;
+    --color-crusta-500: #fe5711;
+    --color-crusta-600: #ef3c07;
+    --color-crusta-700: #c62908;
+    --color-crusta-800: #9d230f;
+    --color-crusta-900: #7e1f10;
+    --color-crusta-950: #440c06;    
+
+    /* #d29d83 */
+    --color-burning-sand-50: #fbf7f5;
+    --color-burning-sand-100: #f7eee9;
+    --color-burning-sand-200: #f1e0d7;
+    --color-burning-sand-300: #e7c9ba;
+    --color-burning-sand-400: #d29d83;
+    --color-burning-sand-500: #c68a6d;
+    --color-burning-sand-600: #b07152;
+    --color-burning-sand-700: #935d42;
+    --color-burning-sand-800: #7b4f39;
+    --color-burning-sand-900: #674535;
+    --color-burning-sand-950: #372218;
+
+    /* question colours */
+    --color-grey: #fff4ec;
+
+    /* Background Gradients */
+    --color-porsche-50: #fcf9f0;
+    --color-porsche-100: #f9f0db;
+    --color-porsche-200: #f1deb7;
+    --color-porsche-300: #e8c789;
+    --color-porsche-400: #dea657;
+    --color-porsche-500: #d78e38;
+    --color-porsche-600: #c9782d;
+    --color-porsche-700: #a75d27;
+    --color-porsche-800: #864b26;
+    --color-porsche-900: #6c3f22;
+    --color-porsche-950: #3a1f10;
+
+    --color-burnt-sienna-50: #fdf4ef;
+    --color-burnt-sienna-100: #fae6da;
+    --color-burnt-sienna-200: #f3cab5;
+    --color-burnt-sienna-300: #eba686;
+    --color-burnt-sienna-400: #e1744f;
+    --color-burnt-sienna-500: #db5734;
+    --color-burnt-sienna-600: #cd4129;
+    --color-burnt-sienna-700: #aa3124;
+    --color-burnt-sienna-800: #882924;
+    --color-burnt-sienna-900: #6e2520;
+    --color-burnt-sienna-950: #3b0f0f;
+
+    /* Button Background*/
+    --color-tumbleweed-50: #faf5f2;
+    --color-tumbleweed-100: #f4e8e0;
+    --color-tumbleweed-200: #e9cebf;
+    --color-tumbleweed-300: #d39e83;
+    --color-tumbleweed-400: #ca876d;
+    --color-tumbleweed-500: #bf6a50;
+    --color-tumbleweed-600: #b15745;
+    --color-tumbleweed-700: #94443a;
+    --color-tumbleweed-800: #773a35;
+    --color-tumbleweed-900: #61312d;
+    --color-tumbleweed-950: #341816;
+
+    --color-cape-palliser-50: #faf6f0;
+    --color-cape-palliser-100: #f0e5d5;
+    --color-cape-palliser-200: #e0c9a7;
+    --color-cape-palliser-300: #d0aa79;
+    --color-cape-palliser-400: #c5915a;
+    --color-cape-palliser-500: #ba7746;
+    --color-cape-palliser-600: #b0643f;
+    --color-cape-palliser-700: #894734;
+    --color-cape-palliser-800: #713a2f;
+    --color-cape-palliser-900: #5e3129;
+    --color-cape-palliser-950: #341814;
+
+    /* Game Over Colors */
+    --color-muddy-waters-50: #f8f5ee;
+    --color-muddy-waters-100: #ede6d4;
+    --color-muddy-waters-200: #ddccab;
+    --color-muddy-waters-300: #c9ab7b;
+    --color-muddy-waters-400: #b99159;
+    --color-muddy-waters-500: #a97d49;
+    --color-muddy-waters-600: #91643d;
+    --color-muddy-waters-700: #754c33;
+    --color-muddy-waters-800: #634030;
+    --color-muddy-waters-900: #56372d;
+    --color-muddy-waters-950: #311c17;
+
+    --color-cape-palliser-50: #faf6f0;
+    --color-cape-palliser-100: #f0e5d5;
+    --color-cape-palliser-200: #e0c9a7;
+    --color-cape-palliser-300: #d0aa79;
+    --color-cape-palliser-400: #c5915a;
+    --color-cape-palliser-500: #ba7746;
+    --color-cape-palliser-600: #b0643f;
+    --color-cape-palliser-700: #894734;
+    --color-cape-palliser-800: #713a2f;
+    --color-cape-palliser-900: #5e3129;
+    --color-cape-palliser-950: #341814;
+
+    /* Fonts */
+    --font-Jersey-15: "Jersey 15", Helvetica;
+}
